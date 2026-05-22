@@ -2,7 +2,7 @@ export const profile = {
   name: 'Yashvi Shah',
   headline: 'AI/ML Engineer shaping research-grade intelligence into enterprise-ready systems.',
   location: 'Gandhinagar, Gujarat, India',
-  email: '22bce393@nirmauni.ac.in',
+  email: 'syashvi3103@gmail.com',
   phone: '+91 98985 04390',
   linkedin: 'https://www.linkedin.com/in/yashvi-shah-24b8a723b/',
   github: 'https://github.com/yashvishah3103',
@@ -17,7 +17,7 @@ export const profile = {
     { label: 'Inference time reduced', value: '70%' },
     { label: 'TinyML UAV accuracy', value: '93.32%' },
     { label: 'Research works', value: '3' },
-    { label: 'B.Tech CGPA', value: '7.81' }
+    { label: 'B.Tech CGPA', value: '8.01' }
   ]
 };
 
@@ -180,7 +180,7 @@ export const education = [
     school: 'Institute of Technology, Nirma University',
     degree: 'B.Tech. Computer Science & Engineering',
     period: '2022 - 2026',
-    detail: 'CGPA: 7.81 / 10 | Minor: Marketing'
+    detail: 'CGPA: 8.01 / 10 | Minor: Marketing'
   },
   {
     school: 'Puna International School, Ahmedabad',
@@ -197,6 +197,16 @@ export const education = [
 ];
 
 export const certifications = [
+  {
+    title: 'Certificate of Appreciation for Academic Excellence',
+    issuer: 'Nirma University',
+    detail: 'Recognized by Nirma University for strong academic performance during the seventh semester.'
+  },
+  {
+    title: 'First Position in Robotics & Automation Research Track',
+    issuer: 'Nirma University and IEEE Student Branch',
+    detail: 'Received certification for securing first position for the LakshyA research work at the UG Students Research Symposium on Recent Trends in Engineering 2025.'
+  },
   {
     title: 'Java Course Completion Certificate',
     issuer: 'Royal Technosoft P. Ltd',
