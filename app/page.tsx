@@ -48,7 +48,6 @@ export default function Home() {
           id="experience"
           eyebrow="Experience"
           title="Timeline of applied AI systems and enterprise engineering direction."
-          intro="Experience is presented as a technical story: from computer vision and VLM experimentation to scalable inference, then toward enterprise software, ETL, and analytics."
         >
           <div className="relative grid gap-6 lg:grid-cols-2">
             <div className="absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-signal/40 to-transparent lg:block" />
@@ -62,7 +61,6 @@ export default function Home() {
           id="research"
           eyebrow="Research & Publications"
           title="Scholarly work across TinyML, security, autonomous systems, and embedded intelligence."
-          intro="This section is intentionally academic in tone, with citation-like cards, venues, topics, and publication links emphasized as first-class portfolio material."
         >
           <div className="grid gap-5 lg:grid-cols-3">
             {publications.map((publication) => (
@@ -75,7 +73,6 @@ export default function Home() {
           id="projects"
           eyebrow="Project Systems"
           title="Selected AI, optimization, software, and data engineering work."
-          intro="Projects are framed as engineering systems rather than disconnected demos, highlighting pipelines, deployment, inference acceleration, vector retrieval, and data workflows."
         >
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {projects.map((project) => (

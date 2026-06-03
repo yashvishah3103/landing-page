@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowDown, Github, Linkedin, Mail, Sparkles } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { profile } from '@/lib/portfolio-data';
@@ -28,11 +28,6 @@ export function Hero() {
 
       <div className="mx-auto grid min-h-[calc(100vh-7rem)] max-w-7xl items-center gap-12 py-12 lg:grid-cols-[1.08fr_0.92fr]">
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/6 px-4 py-2 text-sm text-muted backdrop-blur light:bg-white/70">
-            <Sparkles size={16} className="text-signal" />
-            Research depth meets enterprise engineering discipline
-          </div>
-
           <h1 className="max-w-4xl text-5xl font-semibold leading-[1.02] tracking-tight text-[var(--fg)] sm:text-6xl lg:text-7xl">
             Yashvi Shah
             <span className="mt-4 block bg-gradient-to-r from-signal via-platinum to-mint bg-clip-text text-3xl text-transparent sm:text-4xl lg:text-5xl light:from-[#0f6f87] light:via-[#162033] light:to-[#13795b]">
