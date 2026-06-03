@@ -1,4 +1,4 @@
-import { Award, BookOpen, BrainCircuit, Building2, GraduationCap, Mail, MapPin, Phone, ShieldCheck } from 'lucide-react';
+import { Award, BookOpen, BrainCircuit, Building2, GraduationCap, Mail, MapPin, ShieldCheck } from 'lucide-react';
 import { about, certifications, education, experience, profile, projects, publications, skillGroups } from '@/lib/portfolio-data';
 import { ExperienceCard, ProjectCard, PublicationCard, Tag } from '@/components/cards';
 import { Hero } from '@/components/hero';
@@ -163,13 +163,6 @@ export default function Home() {
                     <span className="font-semibold text-[var(--fg)]">{profile.email}</span>
                   </span>
                 </a>
-                <div className="flex items-center gap-4 rounded-2xl border border-white/10 p-4">
-                  <Phone className="text-signal" size={21} />
-                  <span>
-                    <span className="block text-sm text-muted">Phone</span>
-                    <span className="font-semibold text-[var(--fg)]">{profile.phone}</span>
-                  </span>
-                </div>
                 <div className="flex items-center gap-4 rounded-2xl border border-white/10 p-4">
                   <MapPin className="text-signal" size={21} />
                   <span>

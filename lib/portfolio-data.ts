@@ -3,7 +3,6 @@ export const profile = {
   headline: 'AI/ML Engineer shaping research-grade intelligence into enterprise-ready systems.',
   location: 'Gandhinagar, Gujarat, India',
   email: 'syashvi3103@gmail.com',
-  phone: '+91 98985 04390',
   linkedin: 'https://www.linkedin.com/in/yashvi-shah-24b8a723b/',
   github: 'https://github.com/yashvishah3103',
   roles: [
